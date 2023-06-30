@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_fleur.mk
+    $(LOCAL_DIR)/voltage_fleur.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_fleur-user \
-    derp_fleur-userdebug \
-    derp_fleur-eng
+    voltage_fleur-user \
+    voltage_fleur-userdebug \
+    voltage_fleur-eng
