@@ -19,7 +19,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := fleur
 PRODUCT_NAME := derp_fleur
-PRODUCT_MODEL := Redmi Note 11S 4G
+PRODUCT_MODEL := Redmi Note 11S / Poco M4 Pro 4G
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
