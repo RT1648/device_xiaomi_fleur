@@ -7,6 +7,7 @@ $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
 # Voltage Flags
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit from fleur device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -16,5 +17,4 @@ PRODUCT_DEVICE := fleur
 PRODUCT_NAME := voltage_fleur
 PRODUCT_MODEL := Redmi Note 11S / Poco M4 Pro 4G
 PRODUCT_MANUFACTURER := Xiaomi
-TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
