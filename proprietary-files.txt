@@ -45,3 +45,4 @@ bin/charger:bin/chargeonlymode
 
 # Audio primary hardware module, cannong-user 12 SP1A.210812.016 V13.0.3.0.SJEMIXM release-keys
 # vendor/lib/hw/audio.primary.mt6853.so
+
