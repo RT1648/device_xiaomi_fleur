@@ -9,7 +9,7 @@ $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1440
 WITH_GAPPS := true
-OCTAVI_DEVICE_MAINTAINER := Rohit
+OCTAVI_MAINTAINER := Rohit
 
 # Inherit from fleur device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
