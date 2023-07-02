@@ -2,14 +2,16 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Voltage stuff
+# Inherit some common Octavi stuff
 $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
-# octavi Flags
+# Octavi Flags
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1440
 WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
 OCTAVI_MAINTAINER := Rohit
+TARGET_USES_BLUR := true
 
 # Inherit from fleur device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
