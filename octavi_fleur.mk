@@ -19,6 +19,6 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := fleur
 PRODUCT_NAME := octavi_fleur
-PRODUCT_MODEL := Redmi Note 11S
+PRODUCT_MODEL := Redmi Note 11S / Poco M4 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
