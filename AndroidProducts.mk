@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_fleur.mk
+    $(LOCAL_DIR)/havoc_fleur.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_fleur-user \
-    superior_fleur-userdebug \
-    superior_fleur-eng
+    havoc_fleur-user \
+    havoc_fleur-userdebug \
+    havoc_fleur-eng
