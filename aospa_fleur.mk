@@ -3,7 +3,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Havoc stuff
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+$(call inherit-product, vendor/aospa/config/common_full_phone.mk)
 
 # Havoc Flags
 TARGET_FACE_UNLOCK_SUPPORTED := true
@@ -14,7 +14,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := fleur
-PRODUCT_NAME := havoc_fleur
+PRODUCT_NAME := aospa_fleur
 PRODUCT_MODEL := Redmi Note 11S / Poco M4 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
