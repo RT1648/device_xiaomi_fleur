@@ -1,5 +1,5 @@
 ## Device tree for Redmi Note 11S | Poco M4 Pro 4G
 
-### Known issues
-- Offline Charging
-- Permissive Selinux 
+### Known issues :
+• Offline Charging
+• Permissive Selinux 
