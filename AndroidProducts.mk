@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/octavi_fleur.mk
+    $(LOCAL_DIR)/havoc_fleur.mk
 
 COMMON_LUNCH_CHOICES := \
-    octavi_fleur-user \
-    octavi_fleur-userdebug \
-    octavi_fleur-eng
+    havoc_fleur-user \
+    havoc_fleur-userdebug \
+    havoc_fleur-eng
