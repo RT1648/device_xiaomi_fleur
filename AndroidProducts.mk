@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aospa_fleur.mk
+    $(LOCAL_DIR)/bliss_fleur.mk
 
 COMMON_LUNCH_CHOICES := \
-    aospa_fleur-user \
-    aospa_fleur-userdebug \
-    aospa_fleur-eng
+    bliss_fleur-user \
+    bliss_fleur-userdebug \
+    bliss_fleur-eng
