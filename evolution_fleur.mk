@@ -11,6 +11,7 @@ TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_USES_MINI_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDES_MIUI_CAMERA := true
 
 # Inherit from fleur device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
