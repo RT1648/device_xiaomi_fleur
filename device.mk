@@ -157,7 +157,7 @@ PRODUCT_PACKAGES += \
     SystemUIOverlayFleur \
     SettingsOverlayFleur \
     TargetWifiOverlay \
-    SimpleDeviceConfigOverlayfleur
+    #SimpleDeviceConfigOverlayfleur
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -181,7 +181,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Symbols
 PRODUCT_PACKAGES += \
     libshim_vtservice \
-    libshim_beanpod.vendor
+    #libshim_beanpod.vendor
 
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
