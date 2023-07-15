@@ -10,6 +10,8 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1440
 BUILD_WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
+TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Inherit from fleur device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
