@@ -159,3 +159,8 @@ wifi.direct.interface=p2p0
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=1440
 ro.zram.periodic_wb_delay_hours=24
+
+# HavocOS
+ro.havoc.device.name=Redmi Note 11S / Poco M4 Pro 4G
+ro.havoc.maintainer=Rohit Tiwari 
+ro.havoc.maintainer.username=RT1648
