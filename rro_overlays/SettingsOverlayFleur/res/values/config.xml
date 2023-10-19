@@ -37,6 +37,6 @@
     <bool name="config_supports_dynamic_refresh_rate_controls">true</bool>
 
     <!-- ROM maintainer name -->
-    <string name="build_maintainer_summary">Rohit Tiwari</string>
+    <string name="build_maintainer_summary">Rabikishan Rauniyar</string>
 
 </resources>
