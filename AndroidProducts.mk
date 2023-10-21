@@ -5,13 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_fleur.mk 
+    $(LOCAL_DIR)/fuse_fleur.mk 
     #$(LOCAL_DIR)/evolution_fleur.mk
 
 COMMON_LUNCH_CHOICES := \
-    syberia_fleur-user \
-    syberia_fleur-userdebug \
-    syberia_fleur-eng 
+    fuse_fleur-user \
+    fuse_fleur-userdebug \
+    fuse_fleur-eng 
     #evolution_fleur-user \
     #evolution_fleur-userdebug \
     #evolution_fleur-eng
