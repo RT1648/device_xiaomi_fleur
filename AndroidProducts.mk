@@ -5,13 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fuse_fleur.mk 
+    $(LOCAL_DIR)/yaap_fleur.mk 
     #$(LOCAL_DIR)/evolution_fleur.mk
 
 COMMON_LUNCH_CHOICES := \
-    fuse_fleur-user \
-    fuse_fleur-userdebug \
-    fuse_fleur-eng 
+    yaap_fleur-user \
+    yaap_fleur-userdebug \
+    yaap_fleur-eng 
     #evolution_fleur-user \
     #evolution_fleur-userdebug \
     #evolution_fleur-eng
