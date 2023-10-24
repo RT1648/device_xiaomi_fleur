@@ -204,7 +204,3 @@ ro.zram.periodic_wb_delay_hours=24
 #ro.spark.maintainer= Rabikishan Rauniyar
 #ro.spark.maintainer.username= rabikishan000
 
-#blaze flags
-  ro.blaze.device=$(BLAZE_BUILD) \
-  org.blaze.version=$(BLAZEVERSION) \
-  ro.blaze.maintainer=$(BLAZE_MAINTAINER)
