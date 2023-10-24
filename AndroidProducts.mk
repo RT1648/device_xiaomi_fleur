@@ -5,13 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_fleur.mk 
+    $(LOCAL_DIR)/blaze_fleur.mk 
     #$(LOCAL_DIR)/evolution_fleur.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_fleur-user \
-    spark_fleur-userdebug \
-    spark_fleur-eng 
+    blaze_fleur-user \
+    blaze_fleur-userdebug \
+    blaze_fleur-eng 
     #evolution_fleur-user \
     #evolution_fleur-userdebug \
     #evolution_fleur-eng
