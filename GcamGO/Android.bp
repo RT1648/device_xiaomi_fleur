@@ -1,4 +1,4 @@
-android_app_import {
+#android_app_import {
 	name: "GCamGOPrebuilt-V4",
 	owner: "google",
 	apk: "GCamGOPrebuilt-V4.apk",
