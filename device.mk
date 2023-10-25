@@ -84,8 +84,8 @@ PRODUCT_PACKAGES += \
     DT2W-Service-Fleur
 
 # GCAM GO
-PRODUCT_PACKAGES += \
-    GCamGOPrebuilt-V4
+#PRODUCT_PACKAGES += \
+    #GCamGOPrebuilt-V4
 
 # Fastbootd
 PRODUCT_PACKAGES += \
