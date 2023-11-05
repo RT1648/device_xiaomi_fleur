@@ -1,12 +1,12 @@
 [
     {
-        "repository":   "kernel_xiaomi_fleur",
-        "target_path":  "kernel/xiaomi/fleur",
+        "repository":   "vendor_xiaomi_fleur",
+        "target_path":  "vendor/xiaomi/fleur",
         "branch":       "twelve"
     },
     {
         "repository":   "android_device_xiaomi_fleur-kernel",
-        "target_path":  "vendor/xiaomi/fleur",
+        "target_path":  "kernel/xiaomi/fleur",
         "branch":       "lineage-20.0-prebuilt",
         "remote":       "ghub"
     }
