@@ -2,20 +2,24 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common AICPOS stuff
-$(call inherit-product, vendor/awaken/config/common.mk)
+# Inherit some common SUPERIOROS stuff
+$(call inherit-product, vendor/superior/config/common.mk)
 
 # Inherit from fleur device
 $(call inherit-product, device/xiaomi/fleur/device.mk)
 
 # superior Build Flags
-#TARGET_INCLUDE_PIXEL_CHARGER := true
-#TARGET_SUPPORTS_QUICK_TAP := true
-#TARGET_FACE_UNLOCK_SUPPORTED := true
-#TARGET_ENABLE_BLUR := true
-#USE_MOTO_CALCULATOR := true
-#IS_PHONE := true
-#BUILD_WITH_GAPPS := true
+TARGET_INCLUDE_PIXEL_CHARGER := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_ENABLE_BLUR := true
+USE_MOTO_CALCULATOR := true
+IS_PHONE := true
+BUILD_WITH_GAPPS := true
+USE_DOTGALLERY := true
+SUPERIOR_OFFICIAL := true
+DEVICE_MAINTAINERS="Rabikishan Rauniyar"
+USE_AOSP_DIALER := true
 
 #evox flags
 #TARGET_USES_PICO_GAPPS =: true
@@ -32,24 +36,7 @@ $(call inherit-product, device/xiaomi/fleur/device.mk)
 #TARGET_INCLUDE_PIXEL_CHARGER := true
 
 
-#awaken os flag
 
-# GApps
-TARGET_GAPPS_ARCH := arm64
-USE_GAPPS := true
-
-# Google Recorder
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-
-# Google Assistant
-TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
-
-# Live Wallpaper
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-
-# Official
-AWAKEN_BUILD_TYPE := official
-##########
 
 
 #AICP Device Maintainer
@@ -58,7 +45,7 @@ AWAKEN_BUILD_TYPE := official
 
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := fleur
-PRODUCT_NAME := awaken_fleur
+PRODUCT_NAME := superior_fleur
 PRODUCT_MODEL := Redmi Note 11S 4G
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_BOOT_ANIMATION_RES := 1080
