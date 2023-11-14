@@ -17,7 +17,6 @@ USE_MOTO_CALCULATOR := true
 IS_PHONE := true
 BUILD_WITH_GAPPS := true
 USE_DOTGALLERY := true
-SUPERIOR_OFFICIAL := true
 DEVICE_MAINTAINERS="Rabikishan Rauniyar"
 USE_AOSP_DIALER := true
 
