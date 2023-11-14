@@ -5,16 +5,16 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_fleur.mk 
+    $(LOCAL_DIR)/superior_fleur.mk 
     #$(LOCAL_DIR)/evolution_fleur.mk 
     #$(LOCAL_DIR)/lineage_fleur.mk 
     #$(LOCAL_DIR)/aosp_fleur.mk
     #$(LOCAL_DIR)/superior_fleur.mk 
 
 COMMON_LUNCH_CHOICES := \
-    awaken_fleur-user \
-    awaken_fleur-userdebug \
-    awaken_fleur-eng 
+    superior_fleur-user \
+    superior_fleur-userdebug \
+    superior_fleur-eng 
 
     #evolution_fleur-user \
     #evolution_fleur-userdebug \
