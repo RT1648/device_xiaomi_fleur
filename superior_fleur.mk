@@ -16,8 +16,6 @@ TARGET_ENABLE_BLUR := true
 USE_MOTO_CALCULATOR := true
 IS_PHONE := true
 BUILD_WITH_GAPPS := true
-USE_DOTGALLERY := true
-DEVICE_MAINTAINERS="Rabikishan Rauniyar"
 USE_AOSP_DIALER := true
 
 #evox flags
